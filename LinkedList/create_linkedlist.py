@@ -16,4 +16,4 @@ second=Node(3)
 third=Node(4)
 list.head.next=second
 second.next=third
-list.printlist()                        
+list.printlist()                       

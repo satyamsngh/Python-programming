@@ -11,7 +11,7 @@ class linkedlist:
     def printlist(self):
         temp=self.head
         while(temp):
-            print(temp.data)
+            print(temp.data,end="-->")
             temp=temp.next
 list=linkedlist()
 list.add_in_begining(8)
