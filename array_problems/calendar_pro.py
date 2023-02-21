@@ -27,7 +27,7 @@ for i in range(1,getNumberOfDays(month)+1):
     if i == getNumberOfDays(month):
         calendar_rows.append(current_row)
         current_row = ''
-print(calendar_rows)
+print(current_row)
 
 for i in calendar_rows:
     print(i)
