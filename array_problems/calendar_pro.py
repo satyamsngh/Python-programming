@@ -15,7 +15,7 @@ def getDate( day ):
         return ' '+str(day)
 
 calendar_rows = []
-month = 'feb'
+month = 'mar'
 current_row = ''
 for i in range(1,getNumberOfDays(month)+1):
     if i % 7 == 0:
