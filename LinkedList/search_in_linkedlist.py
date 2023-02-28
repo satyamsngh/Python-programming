@@ -14,7 +14,7 @@ class linkedlist:
     def printl(self):
         v=[]
         n=21
-
+#creating a empty array for storing the value
         temp=self.head
         while temp:
             v.append(temp.data)
