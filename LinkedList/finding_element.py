@@ -19,7 +19,7 @@ class LinkedList:
         while ptr:
             pos=pos+1
             if(ptr.data==val):
-                 print('{} is present at loc'.format(val,pos))
+                 print('{} is present at loc {}'.format(val,pos))
                  flag=1
                  ptr=ptr.next 
             if flag==0:
