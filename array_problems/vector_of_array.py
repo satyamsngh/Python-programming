@@ -1,4 +1,5 @@
 a=[]
+#creating an array
 size=int(input("enter length of array:\n"))
 for i in range(size):
     n=int(input("enter the array value:\n"))
