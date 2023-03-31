@@ -5,11 +5,15 @@ class Node:
 class linkedlist:
     def __init__(self):
         self.head=None
+    
+    #adding in front
 
     def beggining(self,dataa):
         nodee=Node(6)
         nodee.next=self.head
         self.head=nodee 
+
+    #addding in between     
 
     def between(self,prvdata,dataaa):
         newnode=Node(dataaa)
@@ -20,7 +24,8 @@ class linkedlist:
             while(temp.data!=prvdata):
                 temp=temp.next
             newnode.next=temp.next
-            temp.next=newnode    
+            temp.next=newnode   
+    #adding at reaer         
 
     def tail(self,newnode):
         node=Node(newnode)
