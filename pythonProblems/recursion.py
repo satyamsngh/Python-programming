@@ -1,4 +1,5 @@
 def recursion(list):
+    #recursion
     if len(list)==1:
         return list[0]
     return list[0]+recursion(list[1:])
