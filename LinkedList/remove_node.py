@@ -6,11 +6,13 @@ class linkedlist:
     def __init__(self):
         self.head=None
     def remove_node(head,n):
+        #counting the length of the node
         count=0
         temp=head
         while temp:
             count+=1
             temp=temp.next
+        #removing the node    
         a=count-n 
         tempp=head
         current=None
